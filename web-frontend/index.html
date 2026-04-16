@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bismark's Store - Chat Support</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="chat-widget" id="chatWidget">
+      <div class="chat-header" id="chatHeader">
+        <div class="chat-header-left">
+          <div class="bot-avatar">BS</div>
+          <div class="bot-info">
+            <h3>Bismark's Store</h3>
+            <span class="status online">Online</span>
+          </div>
+        </div>
+        <button class="minimize-btn" id="minimizeBtn">−</button>
+      </div>
+
+      <div class="chat-body" id="chatBody">
+        <div class="chat-messages" id="chatMessages">
+          <div class="message bot">
+            <div class="message-avatar">BS</div>
+            <div class="message-content">
+              Hello! I'm ShopBot from Bismark's Store. How can I help you today?
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-footer">
+          <input
+            type="text"
+            id="messageInput"
+            placeholder="Type your message..."
+            autocomplete="off"
+          />
+          <button id="sendBtn">Send</button>
+        </div>
+      </div>
+    </div>
+
+    <button class="chat-toggle-btn" id="chatToggleBtn">
+      <span class="toggle-icon">💬</span>
+      <span class="toggle-text">Chat with us</span>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

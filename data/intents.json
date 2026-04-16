@@ -1,0 +1,198 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "howdy",
+        "what's up"
+      ],
+      "responses": [
+        "Hello! Welcome to Bismark's Store. How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! Thanks for stopping by. What are you looking for?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "see ya",
+        "take care",
+        "have a good day",
+        "quit",
+        "exit"
+      ],
+      "responses": [
+        "Thank you for visiting Bismark's Store. Have a great day!",
+        "Goodbye! Come back anytime.",
+        "Take care! We appreciate your business."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "where is my order",
+        "order status",
+        "track order",
+        "track my package",
+        "where is my package",
+        "order update",
+        "check order",
+        "status of order",
+        "has my order shipped",
+        "when will my order arrive"
+      ],
+      "responses": [
+        "I can help you track your order. Please provide your order number (format: ORD-12345).",
+        "Let me check that for you. What's your order number?",
+        "I'd be happy to check your order status. May I have your order number?"
+      ]
+    },
+
+    
+    {
+      "tag": "order_number_provided",
+      "patterns": [
+        "ORD-",
+        "order number is",
+        "my order number is",
+        "tracking number"
+      ],
+      "responses": [
+        "Thank you. Let me look up order {order_number} for you."
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "return policy",
+        "how do I return",
+        "can I return",
+        "refund policy",
+        "money back",
+        "return an item",
+        "send back",
+        "exchange policy",
+        "how to return"
+      ],
+      "responses": [
+        "Our return policy allows returns within 30 days of delivery. Items must be unused and in original packaging. Would you like me to start a return for you?",
+        "You can return most items within 30 days for a full refund. Items should be unused with tags attached. Shipping fees are non-refundable."
+      ]
+    },
+{
+  "tag": "shipping_info",
+  "patterns": [
+    "shipping",
+    "delivery time",
+    "how long does shipping take",
+    "shipping cost",
+    "delivery options",
+    "free shipping",
+    "express shipping",
+    "when will it arrive",
+    "shipping policy"
+  ],
+  "responses": [
+    "Standard shipping takes 3-5 business days and costs GHS 20. Express shipping (1-2 days) is available for GHS 50. Orders over GHS 500 qualify for free standard shipping.",
+    "We offer standard (3-5 days) and express (1-2 days) shipping. Free standard shipping on orders over GHS 500."
+  ]
+},
+    {
+      "tag": "product_inquiry",
+      "patterns": [
+        "what products do you have",
+        "tell me about",
+        "product info",
+        "price of",
+        "how much is",
+        "do you sell",
+        "available products",
+        "in stock"
+      ],
+      "responses": [
+        "We carry a variety of electronics, clothing, and home goods. What specific item are you interested in?",
+        "Our catalog includes smartphones, laptops, fashion items, and home essentials. Could you specify what you're looking for?"
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "payment",
+        "how can I pay",
+        "payment methods",
+        "do you accept",
+        "mobile money",
+        "credit card",
+        "momo",
+        "visa"
+      ],
+      "responses": [
+        "We accept Mobile Money (MTN, Vodafone, AirtelTigo), Visa, Mastercard, and bank transfer.",
+        "Payment options include Mobile Money, credit/debit cards, and direct bank deposit."
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "contact",
+        "customer service",
+        "support",
+        "speak to human",
+        "real person",
+        "phone number",
+        "email",
+        "help desk"
+      ],
+      "responses": [
+        "You can reach our customer support team at 0243444690 or email seth4u.sa@gmail.com. Hours: Monday-Friday, 9am-6pm.",
+        "Need human assistance? Call 0243444690 or email seth4u.sa@gmail.com. We're here to help!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "appreciate it",
+        "thx",
+        "thank you so much"
+      ],
+      "responses": [
+        "You're welcome! Happy to help.",
+        "My pleasure! Anything else I can assist with?",
+        "Anytime! Let me know if you need anything else."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "what can you do",
+        "how do you work",
+        "commands",
+        "options",
+        "menu",
+        "capabilities"
+      ],
+      "responses": [
+        "I can help you with:\n- Checking order status\n- Return and refund policies\n- Shipping information\n- Product inquiries\n- Payment methods\n- Contacting support\n\nWhat would you like to know?",
+        "Here's what I can do:\n* Track your order\n* Explain return policy\n* Provide shipping details\n* Answer product questions\n* Share payment options\n\nJust ask away!"
+      ]
+    }
+  ],
+  "fallback_responses": [
+    "I'm not sure I understand. Could you rephrase that?",
+    "I didn't quite catch that. Type 'help' to see what I can do.",
+    "Sorry, I'm still learning. Can you try asking differently?",
+    "I don't have an answer for that yet. Is there something else I can help with?"
+  ]
+}

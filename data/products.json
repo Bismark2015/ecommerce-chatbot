@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": "PROD-001",
+      "name": "Wireless Bluetooth Headphones",
+      "category": "Electronics",
+      "price": 299.99,
+      "currency": "GHS",
+      "in_stock": true,
+      "description": "Noise-cancelling over-ear headphones with 40-hour battery life."
+    },
+    {
+      "id": "PROD-002",
+      "name": "Smart Fitness Watch",
+      "category": "Electronics",
+      "price": 449.99,
+      "currency": "GHS",
+      "in_stock": true,
+      "description": "Heart rate monitor, step counter, sleep tracking, and GPS."
+    },
+    {
+      "id": "PROD-003",
+      "name": "Men's Casual T-Shirt",
+      "category": "Clothing",
+      "price": 79.99,
+      "currency": "GHS",
+      "in_stock": true,
+      "description": "100% cotton, available in black, white, and navy."
+    },
+    {
+      "id": "PROD-004",
+      "name": "Stainless Steel Water Bottle",
+      "category": "Home & Kitchen",
+      "price": 119.99,
+      "currency": "GHS",
+      "in_stock": false,
+      "description": "Vacuum insulated, keeps drinks cold for 24 hours or hot for 12 hours."
+    },
+    {
+      "id": "PROD-005",
+      "name": "Portable Power Bank 20000mAh",
+      "category": "Electronics",
+      "price": 189.99,
+      "currency": "GHS",
+      "in_stock": true,
+      "description": "Dual USB ports, fast charging, LED battery indicator."
+    }
+  ]
+}

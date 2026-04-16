@@ -1,0 +1,44 @@
+{
+  "orders": [
+    {
+      "order_number": "ORD-12345",
+      "customer_name": "Bismark Mankata",
+      "order_date": "2026-01-15",
+      "status": "Delivered",
+      "items": ["PROD-001", "PROD-003"],
+      "total": 379.98,
+      "tracking_number": "GH-987654321",
+      "estimated_delivery": "2026-01-20"
+    },
+    {
+      "order_number": "ORD-12346",
+      "customer_name": "John Doe",
+      "order_date": "2026-01-20",
+      "status": "Shipped",
+      "items": ["PROD-002"],
+      "total": 449.99,
+      "tracking_number": "GH-123456789",
+      "estimated_delivery": "2026-01-25"
+    },
+    {
+      "order_number": "ORD-12347",
+      "customer_name": "Jane Smith",
+      "order_date": "2026-01-22",
+      "status": "Processing",
+      "items": ["PROD-005", "PROD-004"],
+      "total": 309.98,
+      "tracking_number": null,
+      "estimated_delivery": "2026-01-28"
+    },
+    {
+      "order_number": "ORD-12348",
+      "customer_name": "Bismark Mankata",
+      "order_date": "2026-01-23",
+      "status": "Pending",
+      "items": ["PROD-001"],
+      "total": 299.99,
+      "tracking_number": null,
+      "estimated_delivery": "2026-01-30"
+    }
+  ]
+}
